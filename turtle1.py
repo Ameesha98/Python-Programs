@@ -1,0 +1,18 @@
+import turtle
+def drawsquare():
+    window=turtle.Screen()
+    window.bgcolor("yellow")
+    brad=turtle.Turtle()
+    brad.shape("arrow")
+    brad.color("red")
+    brad.speed(2)
+    brad.forward(50)
+    brad.right(90)
+    brad.forward(50)
+    brad.right(90)
+    brad.forward(50)
+    brad.right(90)
+    brad.forward(50)
+    brad.right(90)
+    window.exitonclick()
+drawsquare()
